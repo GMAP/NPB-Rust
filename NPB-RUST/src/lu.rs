@@ -239,6 +239,11 @@ fn main() {
     println!("");
 
     /* - - - - - - - - - - SET CONSTANTS - - - - - - - - - - */
+    tolrsd[0] = TOLRSD1_DEF;
+    tolrsd[1] = TOLRSD2_DEF;
+    tolrsd[2] = TOLRSD3_DEF;
+    tolrsd[3] = TOLRSD4_DEF;
+    tolrsd[4] = TOLRSD5_DEF;
     /*
      * ---------------------------------------------------------------------
      * coefficients of the exact solution to the first pde
