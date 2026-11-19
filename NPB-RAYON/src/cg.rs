@@ -476,7 +476,7 @@ fn conj_grad(
         .sum();
 
     /* the conj grad iteration loop */
-    for _ in 1..cgitmax {
+    for _ in 1..cgitmax + 1 {
         /*
          * ---------------------------------------------------------------------
          * q = A.p
